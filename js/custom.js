@@ -93,17 +93,3 @@ $(this).prop('Counter',0).animate({
 });  
 
 
-//video 
-
-{/* <script>
-  $(document).ready(function() {
-    $('#youtubeVideo').on('hidden.bs.modal', function() {
-      var $this = $(this).find('iframe'),
-        tempSrc = $this.attr('src');
-      $this.attr('src', "");
-      $this.attr('src', tempSrc);
-    });
-  });
-</script> */}
-
-
