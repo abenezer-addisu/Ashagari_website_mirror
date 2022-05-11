@@ -255,7 +255,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0px 27px;
-     color: #1e4f77;
+     color: #02A791;
      font-size: 17px;
      line-height: 20px;
 }
@@ -301,7 +301,7 @@ button {
 .banner_main {
      position: relative;
      /* background: url(../images/Bg_banner.jpg); */
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.26), rgba(194, 156, 73, 0.73)),
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
           url('../images/bg/bg-1.jpg');
 
      background-repeat: no-repeat;
@@ -314,10 +314,45 @@ button {
 
 }
 
+
+.core_value_bg {
+     position: relative;
+     /* background: url(../images/Bg_banner.jpg); */
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
+          url('../images/bg/bg-4.jpg');
+
+     background-repeat: no-repeat;
+     min-height: 720px;
+     background-size: cover !important;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+}
+
+ 
+/*.stat_bg {
+     position: relative;
+     background: url(../images/bg/black_bg_pattern.jpg);
+     
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
+          url('../images/bg/bg-4.jpg');
+
+     background-repeat: no-repeat;
+     min-height: 720px;
+     background-size: cover !important;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+
+     
+} */
+
 .reg_banner_main {
      position: relative;
      /* background: url(../images/Bg_banner.jpg); */
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.26), rgba(194, 156, 73, 0.73)),
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
           url('../images/bg/bg-3.jpg');
 
      background-repeat: no-repeat;
@@ -333,7 +368,7 @@ button {
 .upcoming_banner_main {
      position: relative;
      /* background: url(../images/Bg_banner.jpg); */
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.26), rgba(194, 156, 73, 0.73)),
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
           url('../images/events/event_poster.jpg');
 
      background-repeat: no-repeat;
@@ -351,8 +386,8 @@ button {
 .contact_banner {
      position: relative;
      /* background: url(../images/Bg_banner.jpg); */
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.43), rgba(194, 156, 73, 0.73)),
-          url('../images/bg/bg-3.jpg');
+     background-image: linear-gradient(to bottom, rgba(143, 253, 237, 0.26), rgba(2, 167, 145, 0.73)),
+          url('../images/bg/bg-4.jpg');
 
      background-repeat: no-repeat;
 
@@ -378,7 +413,7 @@ button {
 }
 
 .text-bg h1 span {
-     color: #1e4f77;
+     color: #02A791;
 }
 
 .text-bg p {
@@ -446,7 +481,7 @@ button {
 
 .Donate-btn-outline {
      font-size: 17px;
-     background-color: #1e4f7700;
+     background-color: #02A79100;
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -470,7 +505,7 @@ button {
 
 .read_more {
      font-size: 17px;
-     background-color: #1e4f77;
+     background-color: #02A791;
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -773,7 +808,7 @@ a.video span {
 
 .footer {
      position: relative;
-     background: #1e4f77;
+     background: #02A791;
      padding-top: 95px;
 
 }
@@ -870,7 +905,7 @@ ul.social_icon li a {
      font-size: 25px;
      border-radius: 30px;
      margin: 0 3px;
-     color: #1e4f77;
+     color: #02A791;
 }
 
 ul.social_icon li a:hover {
@@ -1047,14 +1082,15 @@ ul.location_icon li a:hover {
      max-width: 85%;
      padding: 15px 0;
      transition: all 0.3s ease-in-out;
-     -webkit-filter: grayscale(100);
+     /* -webkit-filter: grayscale(100);
      -moz-filter: grayscale(100);
-     filter: grayscale(100);
+      */
 }
 
 .logo-list img:hover {
      filter: none;
-     transform: scale(1.2);
+     transform: scale(1.5);
+     
      -webkit-filter: none;
      -moz-filter: none;
 }
@@ -1179,7 +1215,7 @@ ul.location_icon li a:hover {
 }
 
 .button {
-     background: #1e4f77;
+     background: #02A791;
      ;
 }
 
@@ -1270,15 +1306,15 @@ ul {
 }
 
 #carousel .carousel-item.boat {
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.15), rgba(194, 156, 73, 0.73)), url("../images/about/1.jpg");
+     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.15), rgba(2, 167, 145, 0.73)), url("/images/about/1.jpg");
 }
 
 #carousel .carousel-item.sea {
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.26), rgba(194, 156, 73, 0.73)), url("../images/about/2.jpg");
+     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.15), rgba(2, 167, 145, 0.73)), url("/images/about/4.jpg");
 }
 
 #carousel .carousel-item.river {
-     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.26), rgba(194, 156, 73, 0.73)), url("../images/about/4.jpg");
+     background-image: linear-gradient(to bottom, rgba(213, 255, 249, 0.15), rgba(2, 167, 145, 0.73)), url("/images/about/3.jpg");
 }
 
 #carousel .carousel-item {
