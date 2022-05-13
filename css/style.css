@@ -548,16 +548,38 @@ button {
 }
 
 .card_bg {
-     background: #292929;
-     color: #fff;
+     background: #29292900;
+     color: rgb(0, 0, 0);
+     box-shadow: #24262b;
+     border-radius: 10px;
+     border-color: #ddd;
 
 }
+
+.card_zoom {
+     transition: transform 0.2s ease;
+     
+     margin-bottom: 1.5em;
+   }
+   .card_zoom:hover {
+     transform: scale(1.1);
+   }
 
 .card_title {
      font-weight: bold;
      text-align: center;
      color: whitesmoke;
 }
+.card-gradient-custom {
+     /* fallback for old browsers */
+     background: #37ecba;
+   
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to right, rgba(55, 236, 186, 0.55), rgba(114, 175, 211, 0.55));
+   
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, rgba(55, 236, 186, 0.55), rgba(114, 175, 211, 0.55))
+   }
 
 .videos img {
      width: 100%;
